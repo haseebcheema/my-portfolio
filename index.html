@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/56a71eb938.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <title>Haseeb Tariq | Dev</title>
+</head>
+<body>
+    <section class="main" id="main">
+        <div class="navbar">
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/haseebcheema/" target="_blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/haseebcheema" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/haseebcheema"  target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://drive.google.com/file/d/1nQKUFg4P3JA3IYmPr641iEwqoT3yn7kx/view?usp=share_link"  target="_blank">
+                        <i class="fa-sharp fa-solid fa-file"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="intro">
+            <h1>Hi, I'm <span class="name">Haseeb.</span></h1>
+            <h1>I'm a software developer.</h1>
+            <button class="btn btn-skills">
+                <a href="#skills">Skills</a>
+            </button>
+            <button class="btn btn-about">
+                <a href="#about">About</a>
+            </button>
+            <button class="btn btn-contact">
+                <a href="#contact">Contact</a>
+            </button>
+        </div>
+    </section>
+
+    <section class="skills hidden" id="skills">
+        <h1>SKILLS</h1>
+        <div class="container">
+            <div class="box active">
+                <h2>Front End</h2>
+                <div>
+                    <img class="img-icons" src="img/html-5.png" alt="">
+                    <img class="img-icons" src="img/css-3.png" alt="">
+                    <img class="img-icons" src="img/js.png" alt="">
+                </div>
+                <div>
+                    <img class="img-icons" src="img/atom.png" alt="">
+                    <img class="img-icons" src="img/tailwind-css_136619.webp" alt="">
+                    <img class="img-icons" src="img/bootstrap.png" alt="">
+                </div>
+            </div>
+            <div class="box">
+                <h2>Back End</h2>
+                <div>
+                    <img class="img-icons" src="img/java-script.png" alt="">
+                    <img class="img-icons" src="img/java.png" alt="">
+                    <img class="img-icons" src="img/python.png" alt="">
+                </div>
+                <div>
+                    <img class="img-icons" src="img/sql-server.png" alt="">
+                    <img class="img-icons" src="img/mongo.svg" alt="">
+                    <img class="img-icons" src="img/node-js.png" alt="">
+                </div>
+                <div>
+                    <img class="img-icons" src="img/ruby.png" alt="">
+                </div>
+            </div>
+            <div class="box">
+                <h2>Tools</h2>
+                <div>
+                    <img class="img-icons" src="img/github.png" alt="">
+                    <img class="img-icons" src="img/visual-studio.png" alt="">
+                </div>
+            <div>
+        </div>
+    </section>
+
+    <section class="about hidden" id="about">
+        <h1>ABOUT</h1>
+        <p>
+            Computer science graduate with strong foundation in various languages, including Java, JavaScript, HTML, CSS, SQL and Python for both front-end and back-end development.
+        </p>
+        <br>
+        <p>
+            I am a quick learner, consistently seeking to expand my knowledge and skills in new areas and looking for an opportunity as a software developer to kickstart my career.. 
+        </p>
+        <br>
+        <p>
+            When I'm not coding, you can find me playing cricket or hitting the gym.
+        </p>
+        <button class="btn-resume">
+            <a href="https://drive.google.com/file/d/1TVNS8tm4KynCHOua4mP8VGLtODKRRcc4/view?usp=share_link" target="_blank">Resume</a>
+        </button>
+    </section>
+    <section class="contact hidden" id="contact">
+        <h1>CONTACT</h1>
+        <form>
+            <input type="text" id="name" name="name" placeholder="Name" required>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <textarea id="message" name="message" placeholder="Message" required></textarea>
+            <button class="btn btn-send" type="submit">Send</button>
+          </form>
+    </section>
+    <footer id="foot" class="hidden">
+        <div class="arrow-container">
+            <a href="#main">
+                <i class="arrow up"></i>
+            </a>
+        </div>
+        <div class="navbar navbar-footer">
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/haseebcheema/" target="_blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/haseebcheema" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/haseebcheema"  target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://drive.google.com/file/d/1nQKUFg4P3JA3IYmPr641iEwqoT3yn7kx/view?usp=share_link"  target="_blank">
+                        <i class="fa-sharp fa-solid fa-file"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    
+    <!-- js -->
+    <script>
+        // show/hide divs
+        const boxes = document.querySelectorAll('.box');
+        let currentBox = 0;
+
+        function showNextBox() {
+        boxes[currentBox].classList.remove('active');
+        currentBox = (currentBox + 1) % boxes.length;
+        boxes[currentBox].classList.add('active');
+        }
+
+        setInterval(showNextBox, 4000);
+
+        // animations when scroll down
+        const animateMe1 = document.querySelector('#skills');
+        const animateMe2 = document.querySelector('#about');
+        const animateMe3 = document.querySelector('#contact');
+        const animateMe4 = document.querySelector('#foot');
+
+        window.addEventListener('scroll', function() {
+        const rect1 = animateMe1.getBoundingClientRect();
+        const rect2 = animateMe2.getBoundingClientRect();
+        const rect3 = animateMe3.getBoundingClientRect();
+        const rect4 = animateMe4.getBoundingClientRect();
+        const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+        
+        if (rect1.top <= windowHeight * 0.75) {
+            animateMe1.classList.add('visible');
+        } else {
+            animateMe1.classList.remove('visible');
+        }
+        if (rect2.top <= windowHeight * 0.75) {
+            animateMe2.classList.add('visible');
+        } else {
+            animateMe2.classList.remove('visible');
+        }
+        if (rect3.top <= windowHeight * 0.75) {
+            animateMe3.classList.add('visible-contact');
+        } else {
+            animateMe3.classList.remove('visible-contact');
+        }
+        if (rect4.top <= windowHeight * 0.75) {
+            animateMe4.classList.add('visible-footer');
+        } else {
+            animateMe4.classList.remove('visible-footer');
+        }
+        });
+
+    </script>
+</body>
+</html>
