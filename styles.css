@@ -3,6 +3,7 @@
     padding: 0;
     font-family: sans-serif;  
     scroll-behavior: smooth; 
+    /* overflow-x: hidden; */
 }
 
 .html .body{
@@ -378,6 +379,7 @@ footer{
     padding: 5px;
     cursor: pointer; 
     animation: fade-in 4s forwards;
+    /* transition: margin-top .3s ease; */
   }
 
   .up {
