@@ -39,9 +39,9 @@
         <div class="intro">
             <h1>Hi, I'm <span class="name">Haseeb.</span></h1>
             <h1>I'm a software developer.</h1>
-            <button class="btn btn-skills">
+            <!-- <button class="btn btn-skills">
                 <a href="#skills">Skills</a>
-            </button>
+            </button> -->
             <button class="btn btn-about">
                 <a href="#about">About</a>
             </button>
@@ -167,22 +167,22 @@
         setInterval(showNextBox, 4000);
 
         // animations when scroll down
-        const animateMe1 = document.querySelector('#skills');
+        // const animateMe1 = document.querySelector('#skills');
         const animateMe2 = document.querySelector('#about');
         const animateMe3 = document.querySelector('#contact');
         const animateMe4 = document.querySelector('#foot');
 
         window.addEventListener('scroll', function() {
-            const rect1 = animateMe1.getBoundingClientRect();
+            // const rect1 = animateMe1.getBoundingClientRect();
             const rect2 = animateMe2.getBoundingClientRect();
             const rect3 = animateMe3.getBoundingClientRect();
             const rect4 = animateMe4.getBoundingClientRect();
             const windowHeight = window.innerHeight || document.documentElement.clientHeight;
             
-            if (rect1.top <= windowHeight * 0.75) {
-                animateMe1.classList.add('visible');
-                animateMe1.classList.remove('hidden');
-            }
+            // if (rect1.top <= windowHeight * 0.75) {
+            //     animateMe1.classList.add('visible');
+            //     animateMe1.classList.remove('hidden');
+            // }
             if (rect2.top <= windowHeight * 0.75) {
                 animateMe2.classList.add('visible');
                 animateMe2.classList.remove('hidden');
