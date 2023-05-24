@@ -387,8 +387,8 @@ footer{
     -webkit-transform: rotate(-135deg);
   }
 
-/* skills secion */
-.skills{
+/* skills section */
+/* .skills{
   position: relative;
   margin-top: 5%;
   background-color: #02aab0;
@@ -432,7 +432,7 @@ footer{
   width: 5em; /* or any other value */
   height: 5em; /* or any other value */
   padding: 10px;
-}
+} */
 
 /* show/hide divs */
 
