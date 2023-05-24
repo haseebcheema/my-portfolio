@@ -398,7 +398,6 @@ footer{
   text-align: center;
   color: #fff;
   font-style: italic;
-  /* animation: slide-in-reverse 4s forwards; */
 }
 
 @keyframes slide-in-reverse {
@@ -429,8 +428,8 @@ footer{
 
 .img-icons {
   background-size: contain;
-  width: 5em; /* or any other value */
-  height: 5em; /* or any other value */
+  width: 5em; 
+  height: 5em; 
   padding: 10px;
 } */
 
